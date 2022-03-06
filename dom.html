@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" id="myid">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+</head>
+<body>
+    <h id="res"> this is head <!--comment --></h>
+    <p id="id1"> i am world </p>
+    <script>
+      
+        var res=document.getElementById("res");
+         /* console.log(res.parentNode);
+        console.log(res.parentElement); */
+       /* console.log(res.firstChild)
+    console.log(  res.firstChild.nextSibling.nodeValue)
+    res.firstChild.nextSibling.textContent="this is purely a comment";
+    console.log(res.firstChild.nextSibling.nodeValue)
+    document.write(res.nodeValue) 
+    var node1=document.createElement("h");
+    console.log(node1);
+    var node2=document.createComment("hello every one")
+    console.log(node2);
+   var res2=document.createTextNode("this is text node")
+   console.log(res2) */
+   console.log(res.nextSibling.textContent);
+   console.log(res.previousSibling)
+   console.log(res.nextSibling)
+   var len=res.nextSibling.length;
+   //for(let i=0;i<len;i++)
+   //{
+    //   console.log(res.previousElementSibling[i]);
+  // }
+  
+
+
+
+      
+
+    </script>
+    
+    
+</body>
+</html>

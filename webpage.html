@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>web page</title>
+</head>
+<body>
+
+    <h id="rt"> hello world <!--comment--></h>
+    <h id="kl" class="lm"> hello to every one </h>
+    <div class="gek"> 
+        <p class="hel"> he</p>
+        <h2 class="h"> hhh</h2>
+
+    </div>
+    <div class="uu"> nhc</div>
+    <script>
+        /*
+        // getting url of webpage
+        console.log(document.URL)
+        // domain
+        console.log(document.domain)
+        //doc type
+        console.log(document.doctype)
+        //title
+        console.log(document.title)
+        //timeline
+        console.log(document.timeline)
+        //expand prperty
+        console.dir(document)
+        //body
+        console.log(document.body)
+        //all
+        console.log(document.all)
+        // images
+        console.log(document.images)
+        // link
+        console.log(document.links)
+        // property of node object
+       
+       //  property of node object
+
+document.write("-----document-----");
+document.write(document.nodeType+"<br>");
+document.write(document.nodeValue+"<br>")
+document.write(document.nodeName+"<br>")
+document.write(document.childNodes+"<br>") */
+
+//document elemnt
+// document.write("-----elment-----"+"<br>");
+var res=document.getElementById("rt")
+/*
+document.write(res.firstChild.nextSibling.nodeType+"<br>");
+document.write(res.firstChild.nextSibling.nodeValue+"<br>")
+document.write(res.firstChild.nextSibling.nodeName+"<br>")
+document.write(res.firstChild.nextSibling.childNodes+"<br>")
+console.log(res.firstChild.nextSibling.nodeValue)
+console.log(res.firstChild.nextSibling.nodeName)
+console.log(res.firstChild.nextSibling.nodeType)
+console.log(res.firstChild.nodeValue)
+
+.firstChild.nodeValue="this is new value";
+document.write(res)
+console.log(res);
+ // Properties of attribute object //
+ var d=document.getElementsByClassName("gek");
+
+ var res1=res.attributes[0].nodeName;
+ var res3=res.attributes[0].nodeValue;
+ res.attributes.nodeValue="hello";
+ console.log(res);*/
+ //new property
+ var result=document.getElementById("kl");
+ console.log(result.attributes[0].name);
+ console.log(result.attributes[0].value);
+ console.log(result.attributes[1].name);
+ console.log(result.attributes[1].value);
+ result.firstChild.replaceWith="this is new value";
+ 
+ console.log(result)
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
